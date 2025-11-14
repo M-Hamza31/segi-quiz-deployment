@@ -357,5 +357,107 @@
     });
 </script>
 
+<<<<<<< HEAD
+=======
+            <div class="question-card">
+                <p class="q-header">{{ form.qualification.label }}</p>
+                {% for subfield in form.qualification %}
+                    <div class="form-check">
+                        {{ subfield(class="form-check-input") }} 
+                        <label class="form-check-label">{{ subfield.label }}</label>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <div class="question-card">
+                <p class="q-header">{{ form.discipline.label }}</p>
+                {% for subfield in form.discipline %}
+                    <div class="form-check">
+                        {{ subfield(class="form-check-input") }} 
+                        <label class="form-check-label">{{ subfield.label }}</label>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <div class="question-card">
+                <p class="q-header">{{ form.malaysia_intent.label }}</p>
+                {% for subfield in form.malaysia_intent %}
+                    <div class="form-check">
+                        {{ subfield(class="form-check-input") }} 
+                        <label class="form-check-label">{{ subfield.label }}</label>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <div class="question-card">
+                <p class="q-header">{{ form.segi_interest.label }}</p>
+                {% for subfield in form.segi_interest %}
+                    <div class="form-check">
+                        {{ subfield(class="form-check-input") }} 
+                        <label class="form-check-label">{{ subfield.label }}</label>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <div class="question-card">
+                <p class="q-header">{{ form.motivation.label }}</p>
+                {% for subfield in form.motivation %}
+                    <div class="form-check">
+                        {{ subfield(class="form-check-input") }} 
+                        <label class="form-check-label">{{ subfield.label }}</label>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <div class="question-card">
+                <p class="q-header">{{ form.study_environment.label }}</p>
+                {% for subfield in form.study_environment %}
+                    <div class="form-check">
+                        {{ subfield(class="form-check-input") }} 
+                        <label class="form-check-label">{{ subfield.label }}</label>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <div class="question-card">
+                <p class="q-header">{{ form.career_goal.label }}</p>
+                {% for subfield in form.career_goal %}
+                    <div class="form-check">
+                        {{ subfield(class="form-check-input") }} 
+                        <label class="form-check-label">{{ subfield.label }}</label>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <h4>Step 2: Get Your Instant Link 🔗</h4>
+            <p class="text-muted">Fill in your details to unlock your personalized SEGi journey.</p>
+
+            <div class="mb-3">
+                <label class="form-label">{{ form.student_name.label }}</label>
+                {{ form.student_name(class="form-control", placeholder="Your Full Name") }}
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">{{ form.student_email.label }}</label>
+                {{ form.student_email(class="form-control", placeholder="name@example.com") }}
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label">{{ form.student_phone.label }}</label>
+                {{ form.student_phone(class="form-control", placeholder="+92 XXX XXXX XXXX") }}
+            </div>
+
+            {{ form.submit(class="btn submit-btn w-100") }}
+            <p class="text-center mt-3 footer-note">Your info stays private & will only be used by SEGi advisors 💬</p>
+        </form>
+
+        <a href="https://wa.me/923000000000?text=Hello%20SEGi%20Pakistan%20Advisor%2C%20I%20just%20took%20the%20Career%20Quiz%20and%20need%20more%20info%20about%20studying%20at%20SEGi." 
+           class="btn whatsapp-btn w-100" target="_blank">
+            <i class="fab fa-whatsapp"></i> Chat with SEGi representative in Pakistan
+        </a>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+>>>>>>> 97e453916789e1272caea08b0ba082fa4ff30bd6
 </body>
 </html>
