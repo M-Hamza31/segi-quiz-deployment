@@ -1,0 +1,26 @@
+# ------------------------------------------------------------------
+# CRITICAL SECRETS: IGNORE LOCAL CREDENTIALS FILE
+# We renamed the file to service_account.json for local testing.
+service_account.json
+client_secret.json
+
+# ------------------------------------------------------------------
+# PROJECT FILES: FLASK/PYTHON ENVIRONMENT
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore testing/debugging files
+*.log
+.DS_Store
+
+# ------------------------------------------------------------------
+# COMPRESSED FILES (AS REQUESTED)
+*.rar
+# Add other compressed files if needed:
+# *.zip
+# *.tar
